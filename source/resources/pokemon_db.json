@@ -1,0 +1,24 @@
+{
+	"pokemons": {
+		"1": {
+			"name": "Bulbasaur",
+			"species": "Grass, Poison"
+		},
+		"3": {
+			"name": "Venusaur",
+			"species": "Grass, Poison"
+		},
+		"5": {
+			"name": "Charmeleon",
+			"species": "Fire"
+		},
+		"7": {
+			"name": "Squirtle",
+			"species": "Water"
+		},
+		"9": {
+			"name": "Blastoise",
+			"species": "Water"
+		}
+	}
+}

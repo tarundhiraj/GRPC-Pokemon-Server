@@ -1,0 +1,19 @@
+syntax = "proto3";
+package echo;
+
+// The request message containing the pokemon's National Number.
+message PokemonRequest {
+  int32 p_number = 1;
+}
+
+// The response message containing the Pokemon's Information.
+message PokemonResponse {
+  int32 p_number = 1;
+  string p_name = 2;
+  string p_species = 3;
+}
+
+// The pokemon service definition goes here.
+service Pokemon {
+  rpc getPokemon (PokemonRequest) returns (PokemonResponse) {}
+}
